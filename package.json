@@ -25,14 +25,14 @@
   },
   "keywords": [],
   "dependencies": {
-    "@consensys/linea-sdk-core": "workspace:*"
+    "@consensys/linea-sdk-core": "github:wormholelabs-xyz/linea-sdk-core#sdk-core-patched"
   },
   "devDependencies": {
-    "@types/jest": "catalog:",
-    "jest": "catalog:",
-    "ts-jest": "catalog:",
-    "tsup": "catalog:",
-    "viem": "catalog:"
+    "@types/jest": "29.5.14",
+    "jest": "29.7.0",
+    "ts-jest": "29.3.4",
+    "tsup": "8.5.0",
+    "viem": "2.31.3"
   },
   "peerDependencies": {
     "viem": ">=2.22.0"
